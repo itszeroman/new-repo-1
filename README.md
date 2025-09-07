@@ -10,7 +10,7 @@
 
 import argparse, ast, math, operator, sys
 from typing import Any, Dict, List, Tuple
-#
+
 
 # ---- Safe expression evaluator --------
 _ALLOWD_FUNCS = {name: getattr(math, name) for name in dir(math) if not name.startswith("_")}
