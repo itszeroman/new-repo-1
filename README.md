@@ -6,7 +6,7 @@
 # - Numeric calculus: derivative (central difference), integral (Simpson/trapezoid)
 # - Root finding: bisection or Newton
 # - Matrix ops: det, inverse (Gauss-Jordan), multiply
-# Usage examples at bottom comment.
+# Usage examples at bottom comment
 
 import argparse, ast, math, operator, sys
 from typing import Any, Dict, List, Tuple
