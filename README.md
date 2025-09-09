@@ -29,7 +29,7 @@ def safe_eval(expr: str, variables: Dict[str, float] = None) -> float:
     Evaluate a math expression safely with AST.
     Supports numbers, variables, + - * / // % **, parentheses, and math.* functions.
     variables: dict of allowed variable names -> values
-    """
+    ""
     variables = variables or {}
     node = ast.parse(expr.replace("^", "**"), mode="eval")
 
