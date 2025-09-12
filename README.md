@@ -25,7 +25,7 @@ _BIN_OPS = {
 _UNARY_OPS = {ast.UAdd: operator.pos, ast.USub: operator.neg}
 
 def safe_eval(expr: str, variables: Dict[str, float] = None) -> float:
-    """
+    ""
     Evaluate a math expression safely with AST.
     Supports numbers, variables, + - * / // % **, parentheses, and math.* functions.
     variables: dict of allowed variable names -> values
