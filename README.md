@@ -12,7 +12,7 @@ import argparse, ast, math, operator, sys
 from typing import Any, Dict, List, Tuple
 
 
---- Safe expression evaluator -
+- Safe expression evaluator -
 
 _ALOWD_FUNCS = {name: getattr(math, name) for name in dir(math) if not name.startswith("_")}
 _ALLOWED_CONSTS = {"pi": math.pi, "e": math.e, "tau": math.tau, "inf": math.inf, "nan": math.nan}
