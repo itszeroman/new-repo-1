@@ -9,7 +9,7 @@
 # Usage examples at bottom comment
 
 import argparse, ast, math, operator, sys
-from typing import Any, Dict, List, Tuple
+from typing import Any, Dict, List, Tuple=
 
 
 - Safe expression evaluator -
