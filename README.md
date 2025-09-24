@@ -10,7 +10,7 @@
 
 import argparse, ast, math, operator, sys
 from typing import Any, Dict, List, Tuple=
-/rot = cmj
+/
 
 - Safe expression evaluator -
 
