@@ -74,7 +74,7 @@ def safe_eval(expr: str, variables: Dict[str, float] = None) -> float:
             return tuple(_eval(elt) for elt in n.elts)
         raise ValueError("Unsupported expression element.")
     return float(_eval(node))
-# -----------
+# -------
 
 # ----------------- Algebra helpers -------------
 def solve_linear(a: float, b: float) -> Tuple[str, List[float]]:
