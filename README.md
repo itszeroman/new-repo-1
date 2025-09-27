@@ -32,7 +32,7 @@ def safe_eval(expr: str, variables: Dict[str, float] = None) -> float:
     variables: dict of allowed variable names -> values
     ""
     variables = variables or {}
-    node = ast.parse(expr.replace("^", "**"), mode="eval")
+    node = ast.parse(expr.replace("^", "*"), mode="eval")
 
     def _eval(n: ast.AST) -> Any:
         if isinstance(n, ast.Expression):
