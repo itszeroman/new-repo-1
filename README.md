@@ -128,7 +128,7 @@ def gaussian_elimination(A: List[List[float]], b: List[float]) -> List[float]:
     return x
 # ---------------
 
-# ---------------------- Numeric calculus ---------------------
+# ------------------ Numeric calculus ---------------------
 def numeric_derivative(func_expr: str, x0: float, h: float = 1e-5) -> float:
     # 5-point central difference
     f = lambda x: safe_eval(func_expr, {"x": x})
