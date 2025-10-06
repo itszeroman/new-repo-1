@@ -126,7 +126,7 @@ def gaussian_elimination(A: List[List[float]], b: List[float]) -> List[float]:
     for i in range(n-1, -1, -1):
         x[i] = M[i][n] - sum(M[i][j]*x[j] for j in range(i+1, n))
     return x
-# ---------------
+# ---------
 
 # ------------------ Numeric calculus -----------------
 def numeric_derivative(func_expr: str, x0: float, h: float = 1e-5) -> float:
