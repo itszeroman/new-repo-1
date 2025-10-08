@@ -79,7 +79,7 @@ def safe_eval(expr: str, variables: Dict[str, float] = None) -> float:
     return float(_eval(node))
 
 
-# ----------- Algebra helpers ----------
+# ------- Algebra helpers ----------
 def solve_linear(a: float, b: float) -> Tuple[str, List[float]]:
     if a == 0:
         if b == 0:
