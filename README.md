@@ -185,7 +185,6 @@ def newton(func_expr: str, x0: float, tol: float = 1e-10, maxit: int = 10_000) -
             return x_new
         x = x_new
     
-# ------------
 # ------------------------ Matrix utilities --------------------
 def mat_det(A: List[List[float]]) -> float:
     # LU-like via elimination (no pivot sign handling for brevity; use partial pivot)
