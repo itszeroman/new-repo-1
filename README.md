@@ -234,7 +234,7 @@ def mat_mul(A: List[List[float]], B: List[List[float]]) -> List[List[float]]:
     return [[sum(A[i][k]*B[k][j] for k in range(m)) for j in range(p)] for i in range(n)]
 # ---------------
 
-# ------------- CLI commands ---------
+# ------------- CLI commands -------
 def cmd_eval(args):
     print(safe_eval(args.expr))
 
