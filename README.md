@@ -354,7 +354,7 @@ def main():
         sys.exit(1)
 
 if __name__ == "__main__":
-    main()
+    main() 
 
 # Examples:
 # python math_toolbox.py eval "sin(pi/6) + cos(0)"
